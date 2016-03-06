@@ -1,6 +1,14 @@
 # README
 This repository will contain all JSON reference schemata for the Green Navigation project
 
+## Schemata
+
+Are discussed in detail [here](https://github.com/Greennav/schemata/blob/master/SCHEMATA.md)
+
+## Validation
+
+Since GreenNavigation uses TDD, all responses must be testable. This can be ensured using one of the various schema validating libraries like [this one](https://github.com/xeipuuv/gojsonschema) written in Go.https://github.com/xeipuuv/gojsonschema
+
 ## Example
 
 There is an JSON Schema Generator [here](http://jsonschema.net/index.html#/).
